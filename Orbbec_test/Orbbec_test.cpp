@@ -124,7 +124,6 @@ int main(int argc, char **argv)
 	if (STATUS_OK == result)
 	{
 		// create depth stream     
-		
 		result = oniDepthStream.create(device, openni::SENSOR_DEPTH);
 		CheckOpenNIError(result, "create depth stream");
 

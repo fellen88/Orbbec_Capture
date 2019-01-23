@@ -45,7 +45,6 @@ void FormatTime(time_t ttime, char *szTime)
 {
 	struct tm tm1;
 
-
 #ifdef WIN32  
 	tm1 = *localtime(&ttime);
 #else  
